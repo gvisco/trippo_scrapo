@@ -2,7 +2,7 @@
 A simple command-line scraper for TripAdvisor reviews, written in GO.
 
 ## Info
-Heavily based on the code from [TripAdvisor-Review-Scraper](https://github.com/gvisco/TripAdvisor-Review-Scraper) (that works like a charm by the way), I have modified it to get to a simple command-line experience, getting rid of all the docker-related features and and adding a bit of flexibility where needed.
+Heavily based on the code from [TripAdvisor-Review-Scraper](https://github.com/algo7/TripAdvisor-Review-Scraper) (that works like a charm by the way), I have modified it to get to a simple command-line experience, getting rid of all the docker-related features and and adding a bit of flexibility where needed.
 
 Main changes include
 - Input arguments via command line instead of environment variables
@@ -62,4 +62,4 @@ $go run main.go -url=https://www.tripadvisor.com/Hotel_Review-g188107-d231860-Re
 ```
 
 ## License and Credits
-This software is based on the [TripAdvisor-Review-Scraper](https://github.com/gvisco/TripAdvisor-Review-Scraper) and it is released accordingly under a GNU license. If you want to credit the authors, please refer to the original [CITATION](https://github.com/gvisco/TripAdvisor-Review-Scraper/blob/main/CITATION.cff) instructions.
+This software is based on the [TripAdvisor-Review-Scraper](https://github.com/algo7/TripAdvisor-Review-Scraper) and it is released accordingly under a GNU license. If you want to credit the authors, please refer to the original [CITATION](https://github.com/algo7/TripAdvisor-Review-Scraper/blob/main/CITATION.cff) instructions.
